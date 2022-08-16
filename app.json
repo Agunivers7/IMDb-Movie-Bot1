@@ -20,56 +20,57 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
-            "value": "Telegram_files",
+            "value": "5774618801:AAEWaS9ZflFjNvK_HsjhWchxVCyU45C8_aA",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "Telegram_files",
+            "value": "10651048",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "Telegram_files",
+            "value": "37775aca7d11f450ecde375baac17fe7",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
-            "value": "Telegram_files",
+            "value": "-1001609242140",
             "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "value": "Telegram_files",
+            "value": "1323557247",
             "required": true
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
-            "value": "Telegram_files",
+            "value": "https://telegra.ph/file/8ae944169adbf23c0637e.jpg",
             "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
-            "value": "Telegram_files",
+            "value": "-1001758261553",
             "required": true
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
-            "value": "Telegram_files",
+            "value": "1323557247",
             "required": false
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "value": "Telegram_files",
+            "value": "-1001609242140",
             "required": false
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/nj-lJfkgb6w",
+            "value": "mongodb+srv://Aadhi:42426840@cluster0.h9rky.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/nj-lJfkgb6w",
-            "value": "Telegram_files",
+            "value": "",
             "required": false
         },
         "COLLECTION_NAME": {
