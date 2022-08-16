@@ -27,7 +27,7 @@ GPLINKS_API = os.environ.get("GPLINKS_API", "008ccaedd6061ad1948838f410947603de9
 
 reply_markup = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text='join projects channel', url='https://telegram.me/josprojects')
+        InlineKeyboardButton(text='𝙟𝙤𝙞𝙣 𝙥𝙧𝙤𝙟𝙚𝙘𝙩𝙨 𝙘𝙝𝙖𝙣𝙣𝙚𝙡', url='https://t.me/Apex_legends_AG')
         ]]
     )
 
