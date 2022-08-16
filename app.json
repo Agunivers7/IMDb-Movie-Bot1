@@ -20,6 +20,7 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
+            "value": "Telegram_files",
             "required": true
         },
         "API_ID": {
