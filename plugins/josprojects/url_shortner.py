@@ -190,7 +190,7 @@ async def short(link):
     
     # Send the text
     try:
-        shorten_urls += "\n\nmade by @josprojects | @jospsupport 🔥"
+        shorten_urls += "\n\nCreated by @Apex_legends_AG | @Spoidermon12"
         return shorten_urls
     except Exception as error:
         return error
