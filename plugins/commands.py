@@ -45,7 +45,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add me to your Chat ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Help', callback_data='help'),
+            InlineKeyboardButton('⚙️ Help', callback_data='help'),
             InlineKeyboardButton('About', callback_data='about')
             ],[
             InlineKeyboardButton('🕵Search here Movie ', switch_inline_query_current_chat='')
@@ -81,7 +81,7 @@ async def start(client, message):
         if message.command[1] != "subscribe":
             kk, file_id = message.command[1].split("_", 1)
             pre = 'checksubp' if kk == 'filep' else 'checksub' 
-            btn.append([InlineKeyboardButton("🔄 Try Again 👈 Tap me 🥰", callback_data=f"{pre}#{file_id}")])
+            btn.append([InlineKeyboardButton("🔄 Try Again", callback_data=f"{pre}#{file_id}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text=Script.FORCESUB_TXT,
@@ -93,13 +93,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add me to your Chat ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Help', callback_data='help'),
+            InlineKeyboardButton('⚙️ Help', callback_data='help'),
             InlineKeyboardButton('About', callback_data='about')
             ],[
             InlineKeyboardButton('🕵️ Search here Movie', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('⭕️ Updates', url='https://t.me/Apex_legends_AG'),
-            InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/Agunivers_backup')
+            InlineKeyboardButton('Agunivers Club ⭕️', url='https://t.me/Agunivers_backup')
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
         ]]
@@ -310,7 +310,7 @@ async def delete(bot, message):
     """Delete file from database"""
     reply = message.reply_to_message
     if reply and reply.media:
-        msg = await message.reply("Processing...⏳", quote=True)
+        msg = await message.reply("𝘗𝘳𝘰𝘤𝘦𝘴𝘴𝘪𝘯𝘨 𝘺𝘰𝘶𝘳 𝘧𝘪𝘭𝘦 𝘪𝘯 𝘈𝘱𝘦𝘹 𝘥𝘢𝘵𝘢𝘣𝘢𝘴𝘦... 💾", quote=True)
     else:
         await message.reply('Reply to file with /delete which you want to delete', quote=True)
         return
