@@ -249,11 +249,11 @@ This module only works for my admins
 <b>Used Storage:</b> <code>{}</code> MiB
 <b>Free Storage:</b> <code>{}</code> MiB"""
 
-    FORCESUB_TXT = """**♦️ READ THIS INSTRUCTION ♦️**
+    FORCESUB_TXT = """** ___𝘼𝙥𝙚𝙭 𝘼𝙜𝙧𝙚𝙚𝙢𝙚𝙣𝙩___ **
 
-__🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have To Join Our Official Channel First. After That, Try Accessing That Movie Again From Our Group. I'll Send You That Movie Privately 🙈__
+__ 𝙸𝚗 𝙾𝚛𝚍𝚎𝚛 𝚃𝚘 𝙶𝚎𝚝 𝚃𝚑𝚎 𝙼𝚘𝚟𝚒𝚎 𝚁𝚎𝚚𝚞𝚎𝚜𝚝𝚎𝚍 𝙱𝚢 𝚈𝚘𝚞 𝚒𝚗 𝙾𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜, 𝚈𝚘𝚞 𝚆𝚒𝚕𝚕 𝙷𝚊𝚟𝚎 𝚃𝚘 𝙹𝚘𝚒𝚗 𝙾𝚞𝚛 𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 𝙵𝚒𝚛𝚜𝚝. 𝙰𝚏𝚝𝚎𝚛 𝚃𝚑𝚊𝚝, 𝚃𝚛𝚢 𝙰𝚌𝚌𝚎𝚜𝚜𝚒𝚗𝚐 𝚃𝚑𝚊𝚝 𝙼𝚘𝚟𝚒𝚎 𝙰𝚐𝚊𝚒𝚗 𝙵𝚛𝚘𝚖 𝙾𝚞𝚛 𝙶𝚛𝚘𝚞𝚙. 𝙸'𝚕𝚕 𝚂𝚎𝚗𝚍 𝚈𝚘𝚞 𝚃𝚑𝚊𝚝 𝙼𝚘𝚟𝚒𝚎 𝙿𝚛𝚒𝚟𝚊𝚝𝚎𝚕𝚢__
 
-**👇 JOIN THIS CHANNEL & TRY AGAIN 👇**"""
+** 𝙹𝙾𝙸𝙽 𝚘𝚞𝚛 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 & 𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽 **"""
 
     MEMES_TXT = """Help: <b>Memes</b>
 
