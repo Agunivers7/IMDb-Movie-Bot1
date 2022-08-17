@@ -474,7 +474,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        await query.answer('Piracy Is Crime')
+        await query.answer('Apex protection 🛡didn't do it')
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('Connect', callback_data='coct'),
@@ -513,8 +513,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('⭕ Status', url='https://t.me/Apex_legends_AG'),
-            InlineKeyboardButton('Source 🪤', callback_data='source')
+            InlineKeyboardButton('Status', url='https://t.me/Apex_legends_AG'),
+            InlineKeyboardButton('Source', callback_data='source')
             ],[
             InlineKeyboardButton('How to Use', callback_data='help')
             ],[
