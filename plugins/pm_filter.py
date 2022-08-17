@@ -247,7 +247,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=keyboard,
             parse_mode="md"
         )
-        return await query.answer('Piracy Is Crime')
+        return await query.answer('Apex protection 🛡 didn't do it..')
     elif "connectcb" in query.data:
         await query.answer()
 
