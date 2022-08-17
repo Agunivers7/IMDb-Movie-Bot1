@@ -12,12 +12,13 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 <b>Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: <a href='https://t.me/Spoidermon12'>Aadhithya/a>
+➥ Creator: <a href='https://t.me/Spoidermon12'>Aadhithya</a>
 ➥ Library: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
 ➥ Language: Python 𝟹
 ➥ Data Base: <a href='https://www.mongodb.com/'>MongoDB</a>
 ➥ Bot Server: <a href='https://heroku.com'>Heroku</a>
-➥ Build Status: v2.0.1 [ Beta ]"""
+➥ Build Status: v2.0.1 [ Beta ]
+➥ Powered by: <a href='https://t.me/Apex_legends_AG'>𝙰𝚙𝚎𝚡 𝚙𝚛𝚘𝚓𝚎𝚌𝚝𝚜</a>"""
 
     SOURCE_TXT = """<b>Source:</b>
  It is not a Open source project.
