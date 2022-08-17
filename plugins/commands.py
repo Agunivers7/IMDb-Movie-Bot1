@@ -26,12 +26,12 @@ async def start(client, message):
                 InlineKeyboardButton('Updates', url='https://t.me/Apex_legends_AG')
             ],
             [
-                InlineKeyboardButton('🛠️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
-                InlineKeyboardButton('Close', callback_data="close_data"),
+                InlineKeyboardButton('⚙️Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('🛡Close', callback_data="close_data"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await client.send_sticker(chat_id=message.chat.id, sticker='https://telegra.ph/file/c6828f2cdc3e6e912ac05.jpg', reply_markup=reply_markup, reply_to_message_id=message.message_id)
+        await client.send_image(chat_id=message.chat.id, image='https://telegra.ph/file/c6828f2cdc3e6e912ac05.jpg', reply_markup=reply_markup, reply_to_message_id=message.message_id)
         await asyncio.sleep(60)
         if not await db.get_chat(message.chat.id):
             total=await client.get_chat_members_count(message.chat.id)
