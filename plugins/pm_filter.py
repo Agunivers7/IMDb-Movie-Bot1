@@ -360,7 +360,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             pass
         elif int(user) != 0 and query.from_user.id != int(user):
             return await query.answer(
-                "𝐀𝐥𝐥 𝐫𝐢𝐠𝐡𝐭, 𝐛𝐮𝐭 𝐭𝐡𝐢𝐬 𝐢𝐬 𝐧𝐨𝐭 𝐲𝐨𝐮𝐫𝐬.;\n𝐍𝐢𝐜𝐞 𝐓𝐫𝐲! 𝐁𝐮𝐭, 𝐓𝐡𝐢𝐬 𝐖𝐚𝐬 𝐍𝐨𝐭 𝐘𝐨𝐮𝐫 𝐑𝐞𝐪𝐮𝐞𝐬𝐭, 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐘𝐨𝐮𝐫𝐬𝐞𝐥𝐟 𝐛𝐫𝐨.;\n_____𝓑𝔂 𝓐𝓰𝓾𝓷𝓲𝓿𝓮𝓻𝓼",
+                "𝐀𝐥𝐥 𝐫𝐢𝐠𝐡𝐭, 𝐛𝐮𝐭 𝐭𝐡𝐢𝐬 𝐢𝐬 𝐧𝐨𝐭 𝐲𝐨𝐮𝐫𝐬.;\n𝐍𝐢𝐜𝐞 𝐓𝐫𝐲! 𝐁𝐮𝐭, 𝐓𝐡𝐢𝐬 𝐖𝐚𝐬 𝐍𝐨𝐭 𝐘𝐨𝐮𝐫 𝐑𝐞𝐪𝐮𝐞𝐬𝐭, 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐘𝐨𝐮𝐫𝐬𝐞𝐥𝐟 𝐛𝐫𝐨.;\n_____________𝓑𝔂 𝓐𝓰𝓾𝓷𝓲𝓿𝓮𝓻𝓼",
                 show_alert=True)
 
         if not files_:
@@ -943,6 +943,7 @@ async def auto_filter(client, msg, spoll=False):
     ]) 
     btn.insert(0, [
         InlineKeyboardButton("Join Our Channel",url="https://t.me/Apex_legends_AG")
+        InlineKeyboardButton("How to download?",url="https://t.me/+gPmElIh7xDNlZTBl")
     ])
     reply_id = message.reply_to_message.message_id if message.reply_to_message else message.message_id
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
