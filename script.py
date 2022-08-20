@@ -3,17 +3,17 @@ class Script(object):
 
 𝘔𝘺 𝘯𝘢𝘮𝘦 𝘪𝘴 <a href=https://t.me/{}>{}</a>!
 
-<b>I can provide Agunivers Movies.Its Easy To Use Me :)
+<b>𝘐 𝘤𝘢𝘯 𝘱𝘳𝘰𝘷𝘪𝘥𝘦 𝘈𝘨𝘶𝘯𝘪𝘷𝘦𝘳𝘴 𝘔𝘰𝘷𝘪𝘦𝘴.𝘐𝘮 𝘰𝘯𝘭𝘺 𝘸𝘰𝘳𝘬𝘪𝘯𝘨 𝘧𝘰𝘳 𝘈𝘨𝘶𝘯𝘪𝘷𝘦𝘳𝘴 𝘨𝘳𝘰𝘶𝘱,𝘈𝘯𝘥 𝘌𝘢𝘴𝘺 𝘛𝘰 𝘜𝘴𝘦 𝘔𝘦 :)
 
-Just Add me to Your Group As Admin, Hit The Help Button For More Info..
-Powdered by @Apex_legends_AG</b>"""
+𝘑𝘶𝘴𝘵 𝘨𝘰 𝘵𝘰 𝘰𝘶𝘳 𝘨𝘳𝘰𝘶𝘱 @Agunivers_backup, 𝘛𝘺𝘱𝘦 𝘺𝘰𝘶𝘳 𝘮𝘰𝘷𝘪𝘦 𝘨𝘦𝘵 𝘪𝘮𝘮𝘦𝘥𝘪𝘢𝘵𝘦𝘭𝘺..
+𝘗𝘰𝘸𝘥𝘦𝘳𝘦𝘥 𝘣𝘺- @Apex_legends_AG</b>"""
 
     HELP_TXT = """Hey {}
 
 <b>Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: <a href='https://t.me/Spoidermon12'>Aadhithya</a>
+➥ Creator: <a href='https://t.me/Spoidermon12'>𝘡𝘢𝘮𝘢𝘴𝘶</a>
 ➥ Library: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
 ➥ Language: Python 𝟹
 ➥ Data Base: <a href='https://www.mongodb.com/'>MongoDB</a>
