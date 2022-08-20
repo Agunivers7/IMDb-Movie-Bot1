@@ -942,7 +942,6 @@ async def auto_filter(client, msg, spoll=False):
         InlineKeyboardButton("Series", url="https://t.me/Agunivers_fransis")
     ]) 
     btn.insert(0, [
-        InlineKeyboardButton("Join Our Channel",url="https://t.me/Apex_legends_AG")
         InlineKeyboardButton("How to download?",url="https://t.me/+gPmElIh7xDNlZTBl")
     ])
     reply_id = message.reply_to_message.message_id if message.reply_to_message else message.message_id
