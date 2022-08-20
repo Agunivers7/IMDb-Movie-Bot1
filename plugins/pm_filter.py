@@ -145,7 +145,7 @@ async def advantage_spoll_choker(bot, query):
     if not movies:
         return await query.answer("You are clicking on an old button which is expired.", show_alert=True)
     movie = movies[(int(movie_))]
-    await query.answer('𝐂𝐡𝐞𝐜𝐤𝐢𝐧𝐠 𝐟𝐨𝐫 𝐌𝐨𝐯𝐢𝐞 𝐢𝐧 𝐀𝐠𝐮𝐧𝐢𝐯𝐞𝐫𝐬 𝐝𝐚𝐭𝐚𝐛𝐚𝐬𝐞...')
+    await query.answer('𝙲𝚑𝚎𝚌𝚔𝚒𝚗𝚐 𝚏𝚘𝚛 𝚖𝚘𝚟𝚒𝚎 𝚘𝚗 𝙰𝚙𝚎𝚡 𝚍𝚊𝚝𝚊𝚋𝚊𝚜𝚎....')
     k = await manual_filters(bot, query.message, text=movie)
     if k == False:
         files, offset, total_results = await get_search_results(movie, offset=0, filter=True)
@@ -153,7 +153,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('𝐓𝐡𝐢𝐬 𝐌𝐨𝐯𝐢𝐞 𝐍𝐨𝐭 𝐅𝐨𝐮𝐧𝐝 𝐈𝐧 𝐀𝐠𝐮𝐧𝐢𝐯𝐞𝐫𝐬 𝐌𝐨𝐯𝐢𝐞 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞')
+            k = await query.message.edit('𝘛𝘩𝘪𝘴 𝘮𝘰𝘷𝘪𝘦 𝘯𝘰𝘵 𝘧𝘰𝘶𝘯𝘥 𝘪𝘯 𝘈𝘱𝘦𝘹 𝘥𝘢𝘵𝘢𝘣𝘢𝘴𝘦.')
             await asyncio.sleep(10)
             await k.delete()
 
