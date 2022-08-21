@@ -13,7 +13,7 @@ class Script(object):
 <b>Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: <a href='https://t.me/Spoidermon12'>𝘡𝘢𝘮𝘢𝘴𝘶</a>
+➥ Creator: <a href='https://t.me/Spoidermon12'>ＺΛＭΛＳＵ</a>
 ➥ Library: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
 ➥ Language: Python 𝟹
 ➥ Data Base: <a href='https://www.mongodb.com/'>MongoDB</a>
