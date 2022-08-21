@@ -51,9 +51,9 @@ async def start(client, message):
             InlineKeyboardButton('🕵Search here Movie ', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('⭕️ Updates', url='https://t.me/Apex_legends_AG'),
-            InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/Agunivers_backup')
+            InlineKeyboardButton('Agunivers group ⭕️', url='https://t.me/Agunivers_backup')
             ],[
-            InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
+            InlineKeyboardButton('Close the Menu', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_video(
@@ -99,9 +99,9 @@ async def start(client, message):
             InlineKeyboardButton('🕵️ Search here Movie', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('⭕️ Updates', url='https://t.me/Apex_legends_AG'),
-            InlineKeyboardButton('Agunivers Club ⭕️', url='https://t.me/Agunivers_backup')
+            InlineKeyboardButton('Agunivers group ⭕️', url='https://t.me/Agunivers_backup')
             ],[
-            InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
+            InlineKeyboardButton('Close the Menu', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
