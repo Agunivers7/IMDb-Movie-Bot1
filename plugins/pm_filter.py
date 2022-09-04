@@ -503,7 +503,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('Zombies', callback_data='zombies'),
             InlineKeyboardButton('« Back', callback_data='start'),
-            InlineKeyboardButton('welcome', url='http://t.me/Aguniversmovie_bot')
+            InlineKeyboardButton('welcome', callback_data='welcome')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
