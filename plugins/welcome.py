@@ -22,8 +22,8 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown, mention_html, mention_markdown
 
-import Natsuki.modules.sql.welcome_sql as sql
-from Natsuki import (
+import IMDb-Movie-Bot.modules.sql.welcome_sql as sql
+from IMDb-Movie-Bot import (
     DEMONS,
     DEV_USERS,
     DRAGONS,
@@ -35,18 +35,18 @@ from Natsuki import (
     dispatcher,
     sw,
 )
-from Natsuki.modules.helper_funcs.chat_status import (
+from IMDb-Movie-Bot.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
-from Natsuki.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from Natsuki.modules.helper_funcs.msg_types import get_welcome_type
-from Natsuki.modules.helper_funcs.string_handling import (
+from IMDb-Movie-Bot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from IMDb-Movie-Bot.modules.helper_funcs.msg_types import get_welcome_type
+from IMDb-Movie-Bot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_parser,
 )
-from Natsuki.modules.log_channel import loggable
-from Natsuki.modules.sql.global_bans_sql import is_user_gbanned
+from IMDb-Movie-Bot.modules.log_channel import loggable
+from IMDb-Movie-Bot.modules.sql.global_bans_sql import is_user_gbanned
 
 VALID_WELCOME_FORMATTERS = [
     "first",
