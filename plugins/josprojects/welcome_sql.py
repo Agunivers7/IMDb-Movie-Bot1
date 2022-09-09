@@ -4,8 +4,8 @@ from typing import Union
 
 from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 
-from .modules.helper_funcs.msg_types import Types
-from .modules.sql import BASE, SESSION
+from IMDb-Movie-Bot.modules.helper_funcs.msg_types import Types
+from IMDb-Movie-Bot.modules.sql import BASE, SESSION
 
 DEFAULT_WELCOME = "Hey {first}, how are you?"
 DEFAULT_GOODBYE = "Nice knowing ya!"
