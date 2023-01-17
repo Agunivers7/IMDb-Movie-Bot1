@@ -21,7 +21,7 @@
 
 Code 2:-
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=&branch=name&name=servicename
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Agunivers7/IMDb-Movie-Bot1&branch=name&name=servicename
 ## Variables
 
 ### Required Variables
