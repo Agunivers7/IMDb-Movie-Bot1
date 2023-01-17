@@ -1,7 +1,5 @@
 git+https://github.com/ZauteKm/Pyrogram@master-zip
-git+https://github.com/Joelkb/cinemagoer
 tgcrypto==1.2.3
-pyrogram>=2.0.30
 pymongo[srv]==3.12.3
 motor==2.5.1
 sqlalchemy==1.3.23
